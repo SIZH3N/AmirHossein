@@ -496,7 +496,7 @@
                         {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onaction"
+                         "value":"onicon"
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -506,7 +506,7 @@
                         {
                          "name":"openWebsiteWidth",
                          "type":"int",
-                         "value":45
+                         "value":100
                         }],
                  "rotation":0,
                  "type":"area",
