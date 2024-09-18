@@ -491,7 +491,7 @@
                         {
                          "name":"openWebsitePolicy",
                          "type":"string",
-                         "value":"allow"
+                         "value":"fullscreen"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -506,7 +506,7 @@
                         {
                          "name":"openWebsiteWidth",
                          "type":"int",
-                         "value":100
+                         "value":45
                         }],
                  "rotation":0,
                  "type":"area",
