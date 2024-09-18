@@ -336,7 +336,7 @@
                  "id":12,
                  "name":"clockPopup",
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":93.7162209047986,
                  "x":483.919325398621,
