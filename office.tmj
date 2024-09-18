@@ -442,7 +442,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"conference#entry-from-office"
+                         "value":"conference.tmj#entry-from-office"
                         }],
                  "rotation":0,
                  "type":"area",
