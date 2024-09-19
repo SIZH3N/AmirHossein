@@ -484,11 +484,6 @@
                          "value":true
                         }, 
                         {
-                         "name":"openWebsiteClosable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
                          "name":"openWebsitePolicy",
                          "type":"string",
                          "value":"fullscreen"
@@ -496,7 +491,7 @@
                         {
                          "name":"openWebsiteTrigger",
                          "type":"string",
-                         "value":"onicon"
+                         "value":"onaction"
                         }, 
                         {
                          "name":"openWebsiteTriggerMessage",
@@ -519,6 +514,28 @@
                  "width":61,
                  "x":65,
                  "y":283
+                }, 
+                {
+                 "height":50,
+                 "id":22,
+                 "name":"chat",
+                 "properties":[
+                        {
+                         "name":"chatDescription",
+                         "type":"string",
+                         "value":"12123414"
+                        }, 
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"hello"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":58,
+                 "x":388,
+                 "y":398
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -612,7 +629,7 @@
          "y":0
         }],
  "nextlayerid":65,
- "nextobjectid":22,
+ "nextobjectid":24,
  "orientation":"orthogonal",
  "properties":[
         {
