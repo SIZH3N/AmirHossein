@@ -536,6 +536,28 @@
                  "width":58,
                  "x":388,
                  "y":398
+                }, 
+                {
+                 "height":50,
+                 "id":25,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"iframe.html"
+                        }, 
+                        {
+                         "name":"openWebsiteAllowApi",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":50.5,
+                 "x":262,
+                 "y":261
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -629,7 +651,7 @@
          "y":0
         }],
  "nextlayerid":65,
- "nextobjectid":25,
+ "nextobjectid":26,
  "orientation":"orthogonal",
  "properties":[
         {
