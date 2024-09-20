@@ -153,6 +153,11 @@
                  "name":"chatName",
                  "type":"string",
                  "value":"hello"
+                }, 
+                {
+                 "name":"script",
+                 "type":"string",
+                 "value":"website.ts"
                 }],
          "type":"tilelayer",
          "visible":true,
