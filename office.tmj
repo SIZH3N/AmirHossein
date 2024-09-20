@@ -595,11 +595,6 @@
                          "name":"openWebsiteWidth",
                          "type":"int",
                          "value":45
-                        }, 
-                        {
-                         "name":"script",
-                         "type":"string",
-                         "value":"website.ts"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -618,7 +613,29 @@
          "draworder":"topdown",
          "id":63,
          "name":"configuration",
-         "objects":[],
+         "objects":[
+                {
+                 "height":48,
+                 "id":26,
+                 "name":"Camera",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"zoom_Margin",
+                         "type":"float",
+                         "value":0.5
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":56,
+                 "x":265,
+                 "y":140
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -700,7 +717,7 @@
          "y":0
         }],
  "nextlayerid":67,
- "nextobjectid":26,
+ "nextobjectid":27,
  "orientation":"orthogonal",
  "properties":[
         {
