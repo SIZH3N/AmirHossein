@@ -157,7 +157,7 @@
                 {
                  "name":"script",
                  "type":"string",
-                 "value":"website.ts"
+                 "value":"src\/main.ts"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -485,7 +485,7 @@
                  "y":544
                 }, 
                 {
-                 "height":224,
+                 "height":79.5,
                  "id":16,
                  "name":"jitsiMeetingRoom",
                  "properties":[
@@ -512,9 +512,9 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":192,
-                 "x":768,
-                 "y":224
+                 "width":187.5,
+                 "x":772.5,
+                 "y":368.5
                 }, 
                 {
                  "height":39.6969696969697,
@@ -602,6 +602,33 @@
                  "width":61,
                  "x":65,
                  "y":283
+                }, 
+                {
+                 "height":93.5,
+                 "id":30,
+                 "name":"jistiMeetingRoom",
+                 "properties":[
+                        {
+                         "name":"jitsiInterfaceConfig",
+                         "type":"string",
+                         "value":"{ \"DEFAULT_BACKGROUND\": \"#2596be\" }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"salam"
+                        }, 
+                        {
+                         "name":"meetingRoomLabel",
+                         "type":"string",
+                         "value":"Room2"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":176,
+                 "x":777.5,
+                 "y":203
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -627,7 +654,7 @@
                         {
                          "name":"zoom_Margin",
                          "type":"float",
-                         "value":0.5
+                         "value":-1
                         }],
                  "rotation":0,
                  "type":"area",
@@ -635,6 +662,38 @@
                  "width":56,
                  "x":265,
                  "y":140
+                }, 
+                {
+                 "height":56.5,
+                 "id":28,
+                 "name":"website1",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/metapixelz.com\/"
+                        }, 
+                        {
+                         "name":"openWebsiteClosable",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteWidth",
+                         "type":"int",
+                         "value":10
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":86.5,
+                 "x":107,
+                 "y":380
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -717,7 +776,7 @@
          "y":0
         }],
  "nextlayerid":67,
- "nextobjectid":27,
+ "nextobjectid":32,
  "orientation":"orthogonal",
  "properties":[
         {

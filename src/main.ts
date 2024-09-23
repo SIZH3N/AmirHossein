@@ -16,7 +16,6 @@ WA.onInit().then(() => {
         const time = today.getHours() + ":" + today.getMinutes();
         currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
     })
-
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
