@@ -11,6 +11,17 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
+    // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
+    bootstrapExtra().then(() => {
+        console.log('Scripting API Extra ready');
+    }).catch(e => console.error(e));
+
+
+    WA.room.area.onEnter('chat').subscribe(() => {
+        WA.chat.sendChatMessage('Hello world', 'Mr Robot');
+        WA.nav.openTab('https://www.wikipedia.org/');
+    });
+
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
@@ -18,10 +29,7 @@ WA.onInit().then(() => {
     })
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
-    // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
-    bootstrapExtra().then(() => {
-        console.log('Scripting API Extra ready');
-    }).catch(e => console.error(e));
+    
 
 }).catch(e => console.error(e));
 
