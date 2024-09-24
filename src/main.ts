@@ -17,9 +17,10 @@ WA.onInit().then(() => {
     }).catch(e => console.error(e));
 
 
-    WA.room.area.onEnter('chat').subscribe(() => {
+    WA.room.onEnterLayer('chat').subscribe(() => {
         WA.chat.sendChatMessage('Hello world', 'Mr Robot');
         WA.nav.openTab('https://www.wikipedia.org/');
+        console.log("...............hello")
     });
 
     WA.room.area.onEnter('clock').subscribe(() => {
