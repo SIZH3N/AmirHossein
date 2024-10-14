@@ -324,7 +324,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"office.tmj#from-conference"
+                         "value":"office#from-conference"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -496,7 +496,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.2",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
