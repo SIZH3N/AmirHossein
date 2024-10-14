@@ -153,11 +153,6 @@
                  "name":"chatName",
                  "type":"string",
                  "value":"hello"
-                }, 
-                {
-                 "name":"script",
-                 "type":"string",
-                 "value":"src\/main.ts"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -609,6 +604,11 @@
                  "name":"jistiMeetingRoom",
                  "properties":[
                         {
+                         "name":"jitsiConfig ",
+                         "type":"string",
+                         "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": false }"
+                        }, 
+                        {
                          "name":"jitsiInterfaceConfig",
                          "type":"string",
                          "value":"{ \"DEFAULT_BACKGROUND\": \"#2596be\" }"
@@ -627,8 +627,40 @@
                  "type":"area",
                  "visible":true,
                  "width":176,
+                 "x":1000.5,
+                 "y":148
+                }, 
+                {
+                 "height":93.5,
+                 "id":32,
+                 "name":"BigBlueButton",
+                 "properties":[
+                        {
+                         "name":"meetingName",
+                         "type":"string",
+                         "value":"school"
+                        }, 
+                        {
+                         "name":"userdata-bbb_auto_share_webcam",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"userdata-bbb_hide_presentation",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"userdata-bbb_skip_check_audio",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":176,
                  "x":777.5,
-                 "y":203
+                 "y":229
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -694,6 +726,28 @@
                  "width":86.5,
                  "x":107,
                  "y":380
+                }, 
+                {
+                 "height":54,
+                 "id":33,
+                 "name":"Chat",
+                 "properties":[
+                        {
+                         "name":"chatDescription",
+                         "type":"string",
+                         "value":"hellllo"
+                        }, 
+                        {
+                         "name":"chatName",
+                         "type":"string",
+                         "value":"robot"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":64,
+                 "x":386,
+                 "y":394
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -775,8 +829,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":67,
- "nextobjectid":32,
+ "nextlayerid":68,
+ "nextobjectid":35,
  "orientation":"orthogonal",
  "properties":[
         {

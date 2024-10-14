@@ -18,9 +18,9 @@ WA.onInit().then(() => {
 
 
     WA.room.onEnterLayer('chat').subscribe(() => {
-        WA.chat.sendChatMessage('Hello world', 'Mr Robot');
-        WA.nav.openTab('https://www.wikipedia.org/');
-        console.log("...............hello")
+       // WA.chat.sendChatMessage('Hello world', 'Mr Robot');
+        //WA.nav.openTab('https://www.wikipedia.org/');
+       // console.log("...............hello")
     });
 
     WA.room.area.onEnter('clock').subscribe(() => {
