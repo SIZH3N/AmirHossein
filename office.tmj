@@ -755,7 +755,7 @@
                         {
                          "name":"audioVolume",
                          "type":"float",
-                         "value":0.1
+                         "value":1
                         }, 
                         {
                          "name":"playAudio",
@@ -768,6 +768,23 @@
                  "width":67,
                  "x":737,
                  "y":96
+                }, 
+                {
+                 "height":65,
+                 "id":36,
+                 "name":"camera",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":128,
+                 "x":576,
+                 "y":254
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -937,7 +954,7 @@
          "y":0
         }],
  "nextlayerid":70,
- "nextobjectid":36,
+ "nextobjectid":38,
  "orientation":"orthogonal",
  "properties":[
         {
