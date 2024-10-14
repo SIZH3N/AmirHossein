@@ -676,7 +676,7 @@
                         {
                          "name":"jitsiConfig ",
                          "type":"string",
-                         "value":"{ \"startWithAudioMuted\": true, \"startWithVideoMuted\": false }"
+                         "value":"{ \"deeplinking\": { \"disabled\": true} }"
                         }, 
                         {
                          "name":"jitsiInterfaceConfig",
@@ -697,8 +697,8 @@
                  "type":"area",
                  "visible":true,
                  "width":176,
-                 "x":1000.5,
-                 "y":148
+                 "x":773.5,
+                 "y":234
                 }, 
                 {
                  "height":93.5,
@@ -729,8 +729,8 @@
                  "type":"area",
                  "visible":true,
                  "width":176,
-                 "x":777.5,
-                 "y":229
+                 "x":1006.5,
+                 "y":74
                 }],
          "opacity":1,
          "type":"objectgroup",
