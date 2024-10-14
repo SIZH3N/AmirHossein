@@ -324,7 +324,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"office#from-conference"
+                         "value":"office#entry-from-conference"
                         }],
                  "rotation":0,
                  "type":"area",
