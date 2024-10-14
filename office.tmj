@@ -760,7 +760,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"1.mp3"
+                         "value":"5.mp3"
                         }],
                  "rotation":0,
                  "type":"area",
