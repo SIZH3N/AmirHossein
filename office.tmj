@@ -689,6 +689,11 @@
                          "value":"salam"
                         }, 
                         {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
                          "name":"meetingRoomLabel",
                          "type":"string",
                          "value":"Room2"
@@ -698,7 +703,7 @@
                  "visible":true,
                  "width":176,
                  "x":773.5,
-                 "y":234
+                 "y":236
                 }, 
                 {
                  "height":93.5,
