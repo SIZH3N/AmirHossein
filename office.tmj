@@ -525,7 +525,7 @@
                 {
                  "height":64,
                  "id":18,
-                 "name":"to-conference",
+                 "name":"exit-to-conference",
                  "properties":[
                         {
                          "name":"exitUrl",

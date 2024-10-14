@@ -319,7 +319,7 @@
                 {
                  "height":96,
                  "id":22,
-                 "name":"to-office",
+                 "name":"exit-to-office",
                  "properties":[
                         {
                          "name":"exitUrl",
