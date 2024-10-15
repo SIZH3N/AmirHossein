@@ -566,7 +566,7 @@
                         {
                          "name":"soundRadius",
                          "type":"int",
-                         "value":96
+                         "value":100000
                         }],
                  "rotation":0,
                  "type":"variable",
@@ -606,7 +606,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":"https:\/\/workadventu.re\/admin-guide\/streaming-conferences"
+                         "value":"https:\/\/www.oxfordlearnersdictionaries.com\/"
                         }, 
                         {
                          "name":"description",
