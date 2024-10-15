@@ -333,7 +333,7 @@
                 {
                  "name":"closeSound",
                  "type":"string",
-                 "value":""
+                 "value":"close-door-sound.mp3"
                 }, 
                 {
                  "name":"doorVariable",
@@ -343,7 +343,7 @@
                 {
                  "name":"openSound",
                  "type":"string",
-                 "value":""
+                 "value":"open-door-sound.mp3"
                 }, 
                 {
                  "name":"openTriggerMessage",
