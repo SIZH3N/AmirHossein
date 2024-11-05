@@ -331,17 +331,12 @@
                  "value":false
                 }, 
                 {
-                 "name":"closeSound",
-                 "type":"string",
-                 "value":"close-door-sound.mp3"
-                }, 
-                {
                  "name":"doorVariable",
                  "type":"string",
                  "value":"door-0"
                 }, 
                 {
-                 "name":"openSound",
+                 "name":"openDoorSound",
                  "type":"string",
                  "value":"open-door-sound.mp3"
                 }, 
@@ -629,6 +624,33 @@
                  "width":0,
                  "x":304.52245019328,
                  "y":62.873476063039
+                }, 
+                {
+                 "height":52,
+                 "id":29,
+                 "name":"screen",
+                 "properties":[
+                        {
+                         "name":"openConfig",
+                         "type":"string",
+                         "value":"rightDoorExitUrl"
+                        }, 
+                        {
+                         "name":"openConfigTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"zone",
+                         "type":"string",
+                         "value":"door2config"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":110.666666666667,
+                 "x":512,
+                 "y":335.333333333333
                 }],
          "opacity":1,
          "properties":[
@@ -703,7 +725,7 @@
          "y":0
         }],
  "nextlayerid":67,
- "nextobjectid":29,
+ "nextobjectid":30,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -724,7 +746,7 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"Conference"
+         "value":"Conference1212"
         }, 
         {
          "name":"script",
@@ -813,7 +835,7 @@
                  "id":860,
                  "properties":[
                         {
-                         "name":"colides",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
@@ -822,7 +844,7 @@
                  "id":885,
                  "properties":[
                         {
-                         "name":"colides",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
