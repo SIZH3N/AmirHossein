@@ -556,7 +556,7 @@
                         {
                          "name":"bellSound",
                          "type":"string",
-                         "value":"door-knocking-and-opening.mp3"
+                         "value":"5.mp3"
                         }, 
                         {
                          "name":"soundRadius",
