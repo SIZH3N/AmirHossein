@@ -338,7 +338,7 @@
                 {
                  "name":"openDoorSound",
                  "type":"string",
-                 "value":"public\/open-door-sound.mp3"
+                 "value":"5.mp3"
                 }, 
                 {
                  "name":"openTriggerMessage",
