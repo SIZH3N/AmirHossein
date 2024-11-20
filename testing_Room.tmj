@@ -1065,7 +1065,12 @@
                 {
                  "name":"autoOpen",
                  "type":"bool",
-                 "value":false
+                 "value":true
+                }, 
+                {
+                 "name":"closeTriggerMessage",
+                 "type":"string",
+                 "value":"space to turn off"
                 }, 
                 {
                  "name":"doorVariable",
