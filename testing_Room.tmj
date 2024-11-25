@@ -1408,7 +1408,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":72,
          "id":86,
-         "name":"lampstep",
+         "name":"doorstep",
          "opacity":1,
          "properties":[
                 {
@@ -2175,7 +2175,7 @@
                  "id":860,
                  "properties":[
                         {
-                         "name":"colides",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
@@ -2184,7 +2184,7 @@
                  "id":885,
                  "properties":[
                         {
-                         "name":"colides",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
